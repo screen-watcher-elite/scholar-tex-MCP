@@ -1,0 +1,42 @@
+{
+  "name": "scholar-tex-mcp",
+  "version": "1.0.0",
+  "description": "Academic Mathematical Proof & LaTeX Scribe MCP Server. Provides step-by-step derivations, symbolic tensor dimension verification, TikZ diagram synthesis, and Overleaf-ready LaTeX publishing.",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "scholar-tex-mcp": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "start": "node dist/index.js",
+    "dev": "tsc && node dist/index.js",
+    "prepare": "tsc"
+  },
+  "keywords": [
+    "mcp",
+    "latex",
+    "tikz",
+    "mathematics",
+    "linear-algebra",
+    "deep-learning",
+    "academic",
+    "derivations",
+    "antigravity",
+    "claude"
+  ],
+  "author": "Ashutosh <screen-watcher-elite>",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.6.0",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.8",
+    "typescript": "^5.7.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
