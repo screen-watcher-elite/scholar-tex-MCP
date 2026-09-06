@@ -68,7 +68,7 @@ Add to your `mcp_config.json` (or `.agents/mcp_config.json`):
   "mcpServers": {
     "scholar-tex": {
       "command": "node",
-      "args": ["C:/Users/Ashutosh/PSL2/scholar-tex-mcp/dist/index.js"]
+      "args": ["C:/(your-selected-folder)browser-vision-mcp/dist/index.js"]
     }
   }
 }
